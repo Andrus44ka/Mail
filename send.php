@@ -34,14 +34,14 @@ if (!error_get_last()) {
     
     // Настройки вашей почты
     $mail->Host = 'smtp.gmail.com'; // SMTP сервер
-    $mail->Username   = 'username'; // Логин на почте
+    $mail->Username   = 'artas12111@gmail.com'; // Логин на почте
     $mail->Password   = 'qalxnnrcpcpmrcij'; // Пароль на почте
     $mail->SMTPSecure = 'ssl'; // шифрование
     $mail->Port = 465; // Порт
     $mail->setFrom('username@yandex.ru', 'Name'); // Адрес самой почты и имя отправителя
     
     // Получатель письма
-    $mail->addAddress('poluchatel@ya.ru');  
+    $mail->addAddress('artas12111@gmail.com');  
     $mail->addAddress('poluchatel2@gmail.com'); // Ещё один, если нужен
     
     // Прикрипление файлов к письму
